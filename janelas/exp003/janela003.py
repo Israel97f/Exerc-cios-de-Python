@@ -5,6 +5,7 @@ tradutor = Translator()
 resutado = tradutor.translate(
     'Ola mundo',
     src='pt',
-    dest='en')
+    dest='en'
+)
 
 print(resutado.text)
