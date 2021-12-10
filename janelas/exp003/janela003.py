@@ -1,4 +1,3 @@
-translator.translate('veritas lux mea', src='la')
 from tkinter import Tk, ttk, Text
 from googletrans import Translator
 
