@@ -17,7 +17,9 @@ def traduzir(evento=None):
     saida_texto.configure(state='disabled')
 
 
-janela = ThemedTk(theme='black')
+#janela = ThemedTk(theme='black')
+style = Style()
+janela = style.master
 janela.title('Boogle Translator')
 Frame_geral = ttk.Frame() 
 
