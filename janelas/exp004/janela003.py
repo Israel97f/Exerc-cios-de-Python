@@ -26,7 +26,7 @@ Frame_geral = ttk.Frame()
 # ------ Entradas ---------
 entrada_frame = ttk.Frame(Frame_geral)
 entrada_label = ttk.Label(entrada_frame, text='entrada', font=('Roboto', 16))
-entrada = ttk.Combobox(entrada_frame, values=('en', 'es', 'pt', 'ja'), font=('Roboto',16))
+entrada = ttk.Combobox(entrada_frame, values=('auto','en', 'es', 'pt', 'ja'), font=('Roboto',16))
 entrada.set('pt')
 entrada_label.grid(row=0, column=0, padx=10, pady=10)
 entrada.grid(row=0, column=1)
